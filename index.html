@@ -5,65 +5,113 @@
 
     </head>
     <body>
-        <header>
+<!--------------------------------------------
+     START OF THE WRAPPER DIV  
+    ---------------------------------------->
+        <div> 
+            <header>
                 <h1>Experience VR</h1>
-                <p>A simple blog about virtual reality</p>
-        
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-        </header>
-        
-        <p>Virtual Reality is becoming well known as a form of entertainment, but it's also finding its way 
-            into fields like education, industrial design, healthcare and 
-            so much more!</p>
+                <p>A <em>simple</em> blog about virtual reality</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#articles">Articles</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div>
+                <img src="img/featured.jpg" alt="Virtual Reality User">
+                <p><strong>Virtual Reality</strong> is becoming well known as a form of entertainment, but it's also finding its way 
+                into fields like education, industrial design, healthcare and so much more!
+                </p>
+            </div>
+            
 
-        <a href="https://teamtreehouse.com/retiring-gamedev-vr" target="_blank" >Start your VR Journey</a>
-        
-        <section>
-            <h2>About this site</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Vivamus ultrices euismod turpis eget porta. Etiam nulla 
-                massa, pretium et massa nec, ornare dignissim nisi.
-            </p>
-        </section>
+            <a href="https://teamtreehouse.com/retiring-gamedev-vr" target="_blank" >Start your VR Journey</a>
+            <main>
+                <section id="about">
+                    <h2>About this site</h2>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vivamus ultrices euismod turpis eget porta. Etiam nulla 
+                    massa, pretium et massa nec, ornare dignissim nisi.
+                    </span></p>
+                    <figure>
+                        <img src="img/vr-space.jpg" alt="User experiencing space in VR" title="VR user can explore faraway places and feel as though they are right in the middle of action">
+                        <figcaption>VR user can explore faraway places and feel as though they are right in the middle of action</figcaption>                
 
-        <section>
-            <h2>Latest VR Articles</h2>
-
-            <h3>How Schools Use Virtual Reality to Improve Education</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Vivamus ultrices euismod turpis eget porta. Etiam nulla 
-                massa, pretium et massa nec, ornare dignissim nisi.
-            </p>
-                <a href="#">Read more</a>
+                    </figure>
                     
-            <h3>The Advantages of VR simulation</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Vivamus ultrices euismod turpis eget porta. Etiam nulla 
-                massa, pretium et massa nec, ornare dignissim nisi.</p>
-            <a href="#">Read more</a>
-        </section>
+                </section>
 
-        <h3>Top VR Resources</h3> 
-        <ol>
-            <li>Learn to create educational experiences in VR</li>
-            <li>Virtual Reality in Entertainment</li>
-            <li>Interact with buildings and products in VR</li>
-            <li>Use VR for teleconferencing and social media</li>
-        </ol>
-        <section>
-            <h2>Contact</h2>
-            <p>Email us ar coolvrexperince@somemail.com</p>
-        </section>
+                <section id="articles">  
+                    <h2>Latest VR Articles</h2>
+                    <article>
+                        <header>
+                            <h3>How Schools Use Virtual Reality to Improve Education</h3>
+                             <p>By: Nick Pettit</p>
+                        </header>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vivamus ultrices euismod turpis eget porta. Etiam nulla 
+                            massa, pretium et massa nec, ornare dignissim nisi.
+                        </p>
+                        <a href="articles/2017/article.html#vr-article">Read more</a>
+                        <footer>Published August 28, 2019</footer>
+                    </article>
 
+                    <article>
+                        <header>
+                            <h3>The Advantages of VR simulation</h3>
+                            <p>By: Author McAuthorFace</p>
+                        </header>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Vivamus ultrices euismod turpis eget porta. Etiam nulla 
+                            massa, pretium et massa nec, ornare dignissim nisi.</p>
+                        <a href="articles/2017/article.html#vr-article">Read more</a>
+                        <footer>Published August 27, 2019</footer>
+                    </article>
+                
+                </section>
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <p><strong>Email:</strong> us at
+                        <a href="mailto:coolvrexperince@somemail.com?subject=Hi%20 There!">coolvrexperince@somemail.com</a><p>
+                    <p><strong>Phone:</strong>111-111-1111</p>
+                    <p><strong>Address:</strong></p>
+                    <address>
+                        Experience VR <br  />
+                        2017 Virtual Way <br>
+                        City, State 11111
+                    </address>
+                </section>
+            </main>
 
-        <footer>
-            <p>&copy;2017 The VR Blog</p>
-        </footer>            
+            <aside>
+                <h3>Top VR Resources</h3> 
+                <ol>
+                    <li>Learn to create educational experiences in VR</li>
+                    <li>Virtual Reality in Entertainment</li>
+                    <li>Interact with buildings and products in VR</li>
+                    <li>Use VR for teleconferencing and social media</li>
+                </ol>
 
+                <hr>
+                
+                <blockquote cite="https://www.facebook.com/zuck/posts/10101319050523971">
+                    Virtual reality was once the dream of science fiction. But the internet was also once a dream, 
+                    and so were computers and smartphones. The future is coming."
+                    <footer>
+                        - <cite><a href="https://www.facebook.com/zuck/posts/10101319050523971">
+                        Mark Zuckerberg</a></cite>
+                    </footer> 
+                </blockquote>
+            </aside>
+            <footer>
+                <p><small>&copy;2017 The VR Blog</small></p>
+            </footer>
+        </div> <!-- END OF WRAPPER DIV  -->   
     </body>
 </html>
